@@ -1,5 +1,5 @@
 # *ParcialHerramientasComputacionales*
-## Punto (a)
+## *Punto (a)*
 - Para recuperarse un poco del tiempo en cuarentena, las cafeterias de la universidad se encuentran dando descuentos a la comunidad estudiantil y dependiendo si es estudiante o profesor, tienen descuentos diferentes. Se desea saber entonces por cada compra cuánto debe pagar el usuario en caja.
 ## Entrada: 
 - Número de cédula 
@@ -22,7 +22,7 @@
 ### Calculo de algoritmo:
 - El usuario ingresa el número de cedula que se guarda en la variable **x**, el rol se guarda en la variable **y**, el código del producto se guarda en la variable **z**, la cantidad de unidades se guarda en la variable **m**, el precio del producto se guarda en la variable **n**. se crea una variable con nombre **total** para obtener el resultado de *multiplicar* la cantidad de unidades con el precio del producto. Utilizamos condicionales para saber si el **rol** es *igual* a "**estudiante**", si la condición se cumple entonces creamos una variable con el nombre **precioapagar** para hacer la operación de 50% descuento al estudiante y luego impirmir la salida del algoritmo, si no se cumple entonces revisamos otra condición que nos permita comparar si el **rol** ingresado por el usuario es *igual* a "**profesor**", si esta condición se cumple entonces la variable **precioapagar** le damos la operación para que descuente un 20% al total, de lo contrario utilizaremos **else** para imprimir que la información no es valida.   
 ## La implementación de python puede verse en el archivo: "Punto (A) del parcial"
-## Punto Bonus
+## *Punto Bonus*
 - Para recuperarse un poco del tiempo en cuarentena, las cafeterias de la universidad se encuentran dando descuentos a la comunidad estudiantil y dependiendo si es estudiante o profesor, tienen descuentos diferentes. Se desea saber entonces por cada compra cuánto debe pagar el usuario en caja.
 ## Entrada: 
 - Número de cédula 
